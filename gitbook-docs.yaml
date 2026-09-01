@@ -1,0 +1,31 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Aether Flow Docs
+  structure:
+    - type: section
+      key: section-1
+      title: Aether Flow Docs
+      path: aether-flow-docs
+      description: Product Manual
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: Untitled
+          path: untitled
+          default: true
+          content:
+            directory: ./aether-flow-docs/untitled
+    - type: section
+      key: section-2
+      title: Getting Started
+      path: getting-started
+      children:
+        - type: space
+          key: space-2
+          title: Getting Started
+          path: getting-started
+          default: true
+          draft: true
+          content:
+            directory: ./getting-started/getting-started
